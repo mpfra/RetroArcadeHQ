@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RetroArcadeHQ - Your Home for Classic Gaming and Tech Products">
+    <title>RetroArcadeHQ - Classic Gaming Tech</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Retro font */
+        
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #281f29; /* Fondo negro */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            background-image: none; /* Eliminamos cualquier imagen de fondo que pudiera estar interfiriendo */
+            line-height: 1.6; /* Aumenta el interlineado */
+        }
+
+        /* Aseguramos que todo el cuerpo y las secciones tengan fondo negro */
+        .container, section {
+            background-color: #281f29; /* Fondo negro en las secciones */
+        }
+
+        header {
+            background-color: #281f29;
+            padding: 40px;
+            text-align: center;
+            font-size: 2em;
+            color: #00ff00;
+            text-shadow: 0 0 10px #00ff00;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+
+        nav a {
+            color: #00ff00;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+            text-shadow: 0 0 5px #ff00ff, 0 0 5px #00ffff;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: #ff00ff;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        h1, h2 {
+            text-shadow: 0 0 5px #ff00ff, 0 0 5px #00ffff;
+        }
+
+        p {
+            line-height: 1.6; /* Aumentamos el interlineado en los párrafos */
+        }
+
+        .products img {
+            width: 200px;
+            height: auto;
+            border: 2px solid #00ff00;
+            box-shadow: 0 0 10px #ff00ff;
+        }
+
+        .products div {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        /* Estilo del enlace de email */
+        a {
+            color: #00ff00; /* Cambiamos el color del email a verde fluorescente */
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff00ff; /* Efecto hover para el email */
+        }
+
+        footer {
+            background-color: #281f29;
+            color: #ccc;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8em;
+            text-shadow: 0 0 10px #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="" alt="Description of the image" width="0" height="0" style="border: 0px solid #000;">
+        RetroArcadeHQ
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#blog">Nostalgia Corner</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home">
+            <h1>Welcome to RetroArcadeHQ</h1>
+            <p>Your ultimate destination for classic gaming tech and gear! Relive the nostalgia of the 90s with our wide range of gaming products inspired by the golden era of video games.</p>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div>
+                <img src="https://via.placeholder.com/200" alt="Product 1">
+                <h3>Retro Console 1</h3>
+                <p>$99.99</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200" alt="Product 2">
+                <h3>Classic Controller</h3>
+                <p>$29.99</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200" alt="Product 3">
+                <h3>Gaming Headset</h3>
+                <p>$59.99</p>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About RetroArcadeHQ</h2>
+            <p>RetroArcadeHQ was born out of a passion for the classic games of the 90s. Our mission is to bring back the magic of that era by offering high-quality products that enhance your gaming experience. From retro consoles to modern tech with a vintage twist, we’ve got it all!</p>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>Nostalgia Corner</h2>
+            <p>Read our latest articles and relive the magic of the 90s. From game reviews to comparisons between old and new, we keep the spirit of retro gaming alive.</p>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Reach out to us at <a href="mailto:info@retroarcadehq.com">info@retroarcadehq.com</a> or fill out the form below:</p>
+            <form action="mailto:info@retroarcadehq.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 RetroArcadeHQ. All Rights Reserved.
+    </footer>
+</body>
+</html>
